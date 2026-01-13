@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 38px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}   
+.logo{
+     font-size: 30px;
+    font-family: fantasy;
+    font-weight: 400;
+    font-style: oblique;
+    flex: 2;
+    margin-left: 20px;
+}
+.nav{
+    flex: 2;
+}
+.navitems{
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    justify-content: right;
+    margin-right: 20px; 
+}
+.items{
+    margin-left: 20px;
+}
+.fa-solid{
+    margin-right: 5px;
+    color:aqua;
+}
+.nav-fitems{
+    display: flex;
+    justify-content: center;
+    list-style: circle;
+    /* box-shadow: 0px 0px 0px ; */
+    height: 30px;
+    align-items: center;
+    font-weight: 600;
+    background-color:cornflowerblue;
+}
+.content{
+    height: 90vh;
+    box-shadow: 0px 0px 10px grey;
+    display: flex;
+    margin-top: 5px;
+}
+.leftnav{
+    /* border: 2px solid black; */
+    flex: 1;
+    box-shadow: inset 0px 0px 5px grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 0px;
+    background-color:grey;
+    
+
+}
+.info{
+    /* border: 2px solid black; */
+    flex: 2;
+    box-shadow: inset 0px 0px 5px grey;
+}
+.jobs{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: justify;
+    margin-top: 10vh;
+    padding: 50px;
+}
+.job{
+    margin-left: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 7px;
+    font-weight: 800;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.au{
+    margin-left: 20px;
+    color: blue;
+}
+.ap{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.simg{
+    margin-left: 5px;
+    margin-right:0px ;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

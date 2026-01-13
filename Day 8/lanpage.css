@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-top: 10px;
+    position:sticky;
+    top:10px;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn{
+    /* height: 30px; */
+    margin-left: 30px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin-right: 8vw;
+}
+.logo{
+    margin-left: 8vw;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+    line-height: 50px;
+    margin-top: 10vh;
+}
+.main>h1{
+    font-size: 38px;
+}
+.main>p{
+     color: rgb(105, 102, 102);
+}
+.mbtn{
+    margin-top: 20x;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    font-size: small;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 605;
+}
+.content{
+    margin-top: 10vh;
+
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content1>img{
+    width: 35vw;
+    height: 45vh;
+}
+.card{
+   line-height: 40px;
+}
+.cbtn{
+    margin-left: 0px;
+}
+.content1>p{
+    color: rgb(105, 102, 102);
+}
+.content1{
+    margin-top:5vh;
+}
+.headings{
+     padding: 8vw;
+
+}
+.cards{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hcard{
+    width: 30vw;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.hcard>h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.hcard>p{
+    margin-top: 10px  ;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(89, 87, 87);
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+.content{
+    list-style: none;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.logo{
+    margin-left: 4px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+img{
+    transition: transform 1s ease;
+}
+img:hover{
+    transform: scale(1.2);
+}

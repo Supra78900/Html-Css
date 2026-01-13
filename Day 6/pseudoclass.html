@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        a:active{
+            color: green;
+            /* background-color: aqua;
+            text-transform: uppercase; */
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            background-color: aquamarine;
+        }
+        button{
+            padding: 10px;
+            font-size: 14px;
+            background-color: azure;
+            border-radius: 10px;
+            font-weight: bold;
+            border: 4px dark brown;
+            box-shadow: 0px 0px 5px lightskyblue;
+            text-shadow: black 0px 0px 1px;
+            color: red;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            text-shadow: 0px 0px 10px white;
+            font-size:18px ;
+        }
+        .Box:nth-child(2){
+            background-color: blueviolet;
+        }
+        .Box:last-child{
+            background-color: pink;
+        }
+        .Box:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="./Gridlayout.html">Check the grid</a><br>
+    <a href="https://www.youtube.com/">Youtube</a><br>
+    <a href="https://www.instagram.com/">Instagram</a><br>
+    <button>Submit</button>
+    <div class="container">
+        <div class="Box">Box1</div>
+        <div class="Box">Box2</div>
+        <div class="Box">Box3</div>
+        <div class="Box">Box4</div>
+        <div class="Box">Box5</div>
+        <div class="Box">Box6</div>
+    </div>
+
+</body>
+</html>

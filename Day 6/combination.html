@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combination Class</title>
+    <style>
+        /* Comination selectors */
+        div>p{
+            background-color: greenyellow;
+        }
+        .Parent>p{
+            border: 2px solid blue;
+        }
+        /* descendent selector */
+        .Parent p{
+            color: darkcyan;
+        }
+        /* sibling selector */
+        .para+p{
+            font-size: 39px;
+            font-style: italic;
+        }
+        .para1+div{
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        /* subsequent sibling selector */
+        /* it selects all the sibling after that element */
+        .para1~div{
+            font-style: initial;
+            color: brown;
+            border: 10px dotted black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Parent">
+        <p class="para1">This is para 1</p>
+        <div class="child">
+            <p>This is para 2</p>
+        </div>
+        <div class="child">
+            <p>This is para 3</p>
+        </div>
+        <p class="para">This is para 4</p>
+        <P>This is para 5</P>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+.profile{
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    
+}
+.shadow{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 0px 3px rgb(41, 40, 40),inset 0px 0px 50px 2px rgb(60, 132, 108);
+    margin: 10vh auto;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    position: relative;
+    z-index: 0;
+    transition: transform 3s ease;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 0px 3px rgb(41, 40, 40),inset 0px 0px 70px 3px rgb(21, 121, 160);
+    margin: 10vh auto;
+    border-radius: 10px;
+    /* position: absolute; */
+    position: relative;
+    margin-top: -588px;
+     /* background-color: rgb(183, 221, 237); */
+     background-color: white;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+.name{
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.card>img{
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin: 1rem;
+}
+.sitems{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.sitems{
+    margin-left: 36px;
+}
+.icon1{
+    font-size: 1.5rem;
+    color: rgb(86, 86, 211);
+}
+.icon2{
+    font-size: 1.5rem;
+    color: black;
+}
+.icon3{
+    font-size: 1.5rem;
+    color: rgb(228, 19, 228);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.citem{
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 100%;
+    
+}
+.citem>span{
+    margin-right: 10px;
+    font-weight: 600;
+}
+.citem>a{
+    text-decoration: none;
+}
+.title{
+    font-weight: 600;
+}
+.shadow:hover{
+    transform: rotate(-180deg);
+    box-shadow: 0px 0px 0px 4px rgb(41, 40, 40),inset 0px 0px 70px 2px rgb(60, 132, 108);
+
+}

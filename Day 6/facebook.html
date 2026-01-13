@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook.com</title>
+    <style>
+        body{
+            background-color: #f2f4f7;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            padding: 10%;
+        }
+        .title{
+            font-size: 50px;
+            color: #0866ff;
+            font-weight: 600;
+        }
+        .disc{
+            font-size: 24px;
+            margin-top:-40px;
+        }
+        .brand{
+            width: 35%;
+        }
+        .form{
+            width: 320px;
+            box-shadow: 0px 0px 5px gray;
+            padding: 10px 10px;
+            border-radius: 10px;
+             display: flex; 
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 20px;
+            background-color: white;
+        }
+        .input{
+            height: 40px;
+            padding-left:20px;
+            margin: 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0px 0px 2px black;
+            font-size: 16px;
+        }
+        .loginbtn,.accbtn{
+            height: 30px;
+            margin:0px 10px 10px 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0px 0px 2px black;
+            font-size: 16px;
+            font-weight: 550px;
+        }
+        .loginbtn{
+            background-color: #0866ff;
+            color: white;
+            font-weight: bold;
+        }
+        .accbtn{
+            background-color: #42b72a;
+            width: 70%;
+            margin: 0px auto;
+            color: white;
+        }
+        .line{
+            border: 2px solid black;
+            margin: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .footerlist{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="brand">
+            <p class="title">Facebook</p>
+            <p class="disc">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="login">
+            <form class="form">
+                <input type="text" class="input" placeholder="Enter email address or phone number">
+                <input type="password" class="input" placeholder="Password">
+                <button class="loginbtn">Log in</button>
+                <a href="#">Forgot password</a>
+                <div class="line"></div>
+                <hr>
+                <button class="accbtn">Create new Account </button>
+
+            </form>
+           <p><a href="$">Create a Page</a> For a celebrity, brand or Business.</p>
+
+        </div>
+    </div>
+    <footer>
+        <ul class="footerlist">
+            <li class="list-item">list-item</li>
+            <li class="list-item">list-item</li>
+            <li class="list-item">list-item</li>
+            <li class="list-item">list-item</li>
+            <li class="list-item">list-item</li>
+
+        </ul>
+
+    </footer>
+</body>
+
+</html>
