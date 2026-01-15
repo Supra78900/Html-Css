@@ -69,4 +69,3 @@ console.log(multiplication);
 console.log(divideByFive(multiplication));
 console.log(divideByTwo(multiplication))
 */
-
